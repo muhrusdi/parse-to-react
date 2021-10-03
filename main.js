@@ -1,3 +1,4 @@
+import React from "react"
 import { Parser } from "acorn"
 import jsx from "acorn-jsx"
 const acornParser = Parser.extend(jsx())
