@@ -1,5 +1,6 @@
 import { Parser } from "acorn"
-const acornParser = Parser.extend(require("acorn-jsx")())
+import jsx from "acorn-jsx"
+const acornParser = Parser.extend(jsx())
 
 const parseToReact = (str) => {
   function buildElement(nodeList) {
