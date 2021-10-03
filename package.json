@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/murhusdi/parse-to-react.git"
+    "url": "git+https://github.com/muhrusdi/parse-to-react.git"
   },
   "publishConfig": {
     "access": "public"
