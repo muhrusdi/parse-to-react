@@ -1,0 +1,22 @@
+{
+  "name": "parse-to-react",
+  "version": "0.4.0",
+  "files": ["dist"],
+  "main": "./dist/parse-to-react.umd.js",
+  "module": "./dist/parse-to-react.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/parse-to-react.es.js",
+      "require": "./dist/parse-to-react.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "acorn-jsx": "^5.3.2",
+    "vite": "^2.6.0"
+  }
+}
