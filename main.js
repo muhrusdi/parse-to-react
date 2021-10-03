@@ -1,3 +1,4 @@
+import { Parser } from "acorn"
 const acornParser = Parser.extend(require("acorn-jsx")())
 
 const parseToReact = (str) => {
