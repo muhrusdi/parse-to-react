@@ -19,7 +19,7 @@ const parseToReact = (str) => {
         const el = React.createElement(
           openingElement.name.name,
           { key: Math.random().toString(36).substring(7), ...attsObj },
-          children.length ? buildElement(children || []) : null
+          children.length ? buildElement(children) : null
         )
 
         elements.push(el)
